@@ -29,5 +29,5 @@ function SCN()
 -- Once per scan line this memory address
 -- is updated with a random number.
 -- Use 0x03FF8 for hex value.
-		poke (16376,RND(15))
+		poke (16376,RND(16))
 end
